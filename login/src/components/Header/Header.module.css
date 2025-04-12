@@ -1,0 +1,69 @@
+.app {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 1%;
+    background-color: rgb(21, 160, 215);
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    border-radius: 5px;
+    padding: 0 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #060708;
+    margin: 0;
+  }
+  
+  .main-content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .medico-title {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .buscar-button,
+  .registro-button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .buscar-button {
+    background-color: transparent;
+    color: #060708;
+    border: 2px solid #060708;
+  }
+  
+  .buscar-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .registro-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .registro-button:hover {
+    background-color: #0056b3;
+  }
